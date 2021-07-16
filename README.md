@@ -1,3 +1,5 @@
+[![C/C++ CI](https://github.com/namantam1/stack/actions/workflows/CI.yaml/badge.svg)](https://github.com/namantam1/stack/actions/workflows/CI.yaml)
+
 # Stack Implementation in C Language
 
 ## Features - 
@@ -5,6 +7,7 @@
 2. Auto garbage collection while poping out the data from stack.
 3. No size restriction due to implementation with the help of linked list.
 4. Better data structure management.
+5. push and pop operation with time complexity of O(1).
 
 ## How to use -
 
@@ -37,11 +40,14 @@ int main() {
 }
 ```
 
+### Check Complete example
+- [example](example.c)
+
 ## Issue
 
-If you find any please don't hesitate to create an [issue](https://github.com/namantam1/stack/issues).
+If you find any issue please don't hesitate to create an [issue](https://github.com/namantam1/stack/issues).
 
 Any Contribution or suggestion are welcome.
 
 ## License
-This project is [MIT](LICENSE) License.
+This project is under [MIT](LICENSE) License.
