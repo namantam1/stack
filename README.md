@@ -51,3 +51,6 @@ Any Contribution or suggestion are welcome.
 
 ## License
 This project is under [MIT](LICENSE) License.
+
+## See also
+- [Queue Implementation in C](https://github.com/namantam1/queue)
