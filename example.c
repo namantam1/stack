@@ -29,7 +29,7 @@ int main(int argc, char *argsv[])
         .name = "Naman Tamrakar",
         .age = 21};
 
-    // creating a new queue q1 along with data
+    // creating a new stack q1 along with data
     stack *q1 = create_stack(sizeof(example_data), &data);
     // creating a new stack q2 without initial data
     stack *q2 = create_stack(sizeof(example_data), NULL);

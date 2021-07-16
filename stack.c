@@ -95,7 +95,7 @@ static void _destroy_node(node_ptr n)
 }
 
 // ##################################################################################
-//  QUEUE IMPLEMENTATION                                                            #
+//  STACK IMPLEMENTATION                                                            #
 // ##################################################################################
 
 typedef struct Stack
@@ -108,7 +108,7 @@ typedef struct Stack
 stack_ptr create_stack(size_t size, c_void_ptr data)
 {
     LOG("create stack %p\n", data);
-    // allocated the memory to queue pointer
+    // allocated the memory to stack pointer
     stack_ptr s = (stack_ptr)malloc(sizeof(stack));
     s->size = size;
 
