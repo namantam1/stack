@@ -57,7 +57,7 @@ extern "C"
      * 
      * @param s: stack pointer
      * @param key: key of which data to be find
-     * @param compare_fun: compare funtion to compare a key with data
+     * @param compare_fun: compare function to compare a key with data
      * which take data and key as arguments and return boolean value based on that.
      * @return data ponter if found else NULL
     */
@@ -67,7 +67,7 @@ extern "C"
      * Print the string representation of stack
      * 
      * @param s: stack pointer
-     * @param print: print funtion with a data pointer argument
+     * @param print: print function with a data pointer argument
      * @return void(0)
     */
     void print_stack(stack *, void (*)(void *));
